@@ -259,3 +259,17 @@ paket-files/
 # Python Tools for Visual Studio (PTVS)
 __pycache__/
 *.pyc
+/GoogleDino/sfml-window-d-2.dll
+/GoogleDino/sfml-window-2.dll
+/GoogleDino/sfml-system-d-2.dll
+/GoogleDino/sfml-system-2.dll
+/GoogleDino/sfml-network-d-2.dll
+/GoogleDino/sfml-network-2.dll
+/GoogleDino/sfml-graphics-d-2.dll
+/GoogleDino/sfml-graphics-2.dll
+/GoogleDino/sfml-audio-d-2.dll
+/GoogleDino/sfml-audio-2.dll
+/GoogleDino/opencv_world330d.dll
+/GoogleDino/opencv_world330.dll
+/GoogleDino/opencv_ffmpeg330_64.dll
+/GoogleDino/openal32.dll

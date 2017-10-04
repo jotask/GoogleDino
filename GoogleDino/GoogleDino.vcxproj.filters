@@ -5,13 +5,110 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-    <Filter Include="Header Files">
-      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
-      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
-    </Filter>
     <Filter Include="Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\neat">
+      <UniqueIdentifier>{3af1aa93-c359-45c2-8f3c-9f1fccfee930}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="straw.jpg">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="test.png">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="game.flv">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="game.avi">
+      <Filter>Resource Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="experiments.cpp">
+      <Filter>Source Files\neat</Filter>
+    </ClCompile>
+    <ClCompile Include="gene.cpp">
+      <Filter>Source Files\neat</Filter>
+    </ClCompile>
+    <ClCompile Include="genome.cpp">
+      <Filter>Source Files\neat</Filter>
+    </ClCompile>
+    <ClCompile Include="link.cpp">
+      <Filter>Source Files\neat</Filter>
+    </ClCompile>
+    <ClCompile Include="neat.cpp">
+      <Filter>Source Files\neat</Filter>
+    </ClCompile>
+    <ClCompile Include="neatmain.cpp">
+      <Filter>Source Files\neat</Filter>
+    </ClCompile>
+    <ClCompile Include="network.cpp">
+      <Filter>Source Files\neat</Filter>
+    </ClCompile>
+    <ClCompile Include="nnode.cpp">
+      <Filter>Source Files\neat</Filter>
+    </ClCompile>
+    <ClCompile Include="organism.cpp">
+      <Filter>Source Files\neat</Filter>
+    </ClCompile>
+    <ClCompile Include="population.cpp">
+      <Filter>Source Files\neat</Filter>
+    </ClCompile>
+    <ClCompile Include="species.cpp">
+      <Filter>Source Files\neat</Filter>
+    </ClCompile>
+    <ClCompile Include="trait.cpp">
+      <Filter>Source Files\neat</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="experiments.h">
+      <Filter>Source Files\neat</Filter>
+    </ClInclude>
+    <ClInclude Include="gene.h">
+      <Filter>Source Files\neat</Filter>
+    </ClInclude>
+    <ClInclude Include="genome.h">
+      <Filter>Source Files\neat</Filter>
+    </ClInclude>
+    <ClInclude Include="innovation.h">
+      <Filter>Source Files\neat</Filter>
+    </ClInclude>
+    <ClInclude Include="link.h">
+      <Filter>Source Files\neat</Filter>
+    </ClInclude>
+    <ClInclude Include="neat.h">
+      <Filter>Source Files\neat</Filter>
+    </ClInclude>
+    <ClInclude Include="neatmain.h">
+      <Filter>Source Files\neat</Filter>
+    </ClInclude>
+    <ClInclude Include="network.h">
+      <Filter>Source Files\neat</Filter>
+    </ClInclude>
+    <ClInclude Include="nnode.h">
+      <Filter>Source Files\neat</Filter>
+    </ClInclude>
+    <ClInclude Include="organism.h">
+      <Filter>Source Files\neat</Filter>
+    </ClInclude>
+    <ClInclude Include="population.h">
+      <Filter>Source Files\neat</Filter>
+    </ClInclude>
+    <ClInclude Include="species.h">
+      <Filter>Source Files\neat</Filter>
+    </ClInclude>
+    <ClInclude Include="trait.h">
+      <Filter>Source Files\neat</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
